@@ -3,55 +3,74 @@
 
 <head>
 	<title> About </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"">
 	<link rel="stylesheet" href="./assets/css/reset.css" type="text/css">
 	<link rel="stylesheet" href="./assets/css/style.css" type="text/css">
+	
 	
 </head>
 
 <body>
+<div class="container">
+	<nav class="navbar navbar-default">
+	<div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+        <a class="navbar-brand" id="yourName">Divya Ayikkara</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse navbar-right">
+      	<ul class="nav navbar-nav"> 
+      		<li id="About"><a href="index.html">About</a></li>
+          <li id="Portfolio"><a href="portfolio.html">Portfolio</a></li>
+          <li id="Contact"><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
 
-	<header>
-		<div id="yourName" class="tabcontent">
-			<h1> Divya Ayikkara </h1>
+<div class="row">
+	<div class="col-lg-5" class="col-md-9" class="col-sm-12">
+		<div class="panel panel-primary" id="Me">
+			<div class="panel-heading" id="aboutme">About Me</div>
+			<div class="panel-body">
+				<img id="Profile" src="./assets/images/MyProfile.jpg" style="width: 350px; height: 300px;"">
+				<p> Hello! This is Divya Ayikkara, and currently I am a junior at the Rutgers University under the School of Environmental and Biological Sciences (SEBS). I am majoring in Environmental and Business Economics and doubling minoring in Politcial Science and Women in Gender Studies. I love to hang out with my family and my friends with amazing food and great music.
+					<br><br>
+				I was born in the city of Hyderabad in India, and moved to the United States at the age of twelve. I love food, espically Indian and Italian, and watching documentaries. I am passionate about dance, as I have been learning Indian classical dances called Baharatanatyam and Mohiniyattam since the age of eleven. I also like makeup products, and I am interested in going into beauty market. </p>
+			</div>
 		</div>
-		<nav>
-		 <a href="index.html" target="_blank" id="About" style="color: #777777; text-decoration: none; font-family: Georgia"> About </a> 
-		 <a href="portfolio.html" target="_blank" id="Portfolio" style="color: #777777; text-decoration: none; font-family: Georgia"> Portfolio </a> 
-		<a href="contact.html" target="_blank" id="Contact" style="color: #777777; text-decoration: none; font-family: Georgia"> Contact </a>
-	</nav>
-	</header>
+		</div>
 
-	<br>
-
-	<div class="entireContentArea">
-			<div class="mainContent">
-					<h2> About Me </h2>
-					<hr>
-					<img id="Profile" src="./assets/images/MyProfile.jpg" style="width: 350px; height: 300px;"">
-					
-					<p> Hello! This is Divya Ayikkara, and currently I am a junior at the Rutgers University under the School of Environmental and Biological Sciences (SEBS). I am majoring in Environmental and Business Economics and doubling minoring in Politcial Science and Women in Gender Studies. I love to hang out with my family and my friends with amazing food and great music.
-						<br><br>
-
-					I was born in the city of Hyderabad in India, and moved to the United States at the age of twelve. I love food, espically Indian and Italian, and watching documentaries. I am passionate about dance, as I have been learning Indian classical dances called Baharatanatyam and Mohiniyattam since the age of eleven. I also like makeup products, and I am interested in going into beauty market. </p>
-
-				</div>
-			<div class="sideBar">
-				<h3> Connect with Me! </h3>
-				<a href="https://www.facebook.com/divya.nair.39904">
+		<div class= "col-lg-5" class="col-md-3" class="col-sm-12">
+			<div class= "panel panel-primary" id="Connect">
+				<div class="panel-heading" id="sidebar">Connect with Me!</div>
+				<div class="panel-body">
+					<a href="https://www.facebook.com/divya.nair.39904">
 					<img id="Facebook" src="./assets/images/Facebook.jpg" alt="Facebook" style="width: 50px; height: 50px;">
-				<a href="https://www.instagram.com/divya_2210/?hl=en">
-					<img id="Instagram" src="./assets/images/Instagram.jpg" alt="Instagram" style="width: 50px; height: 50px;">
-				<a href="https://www.linkedin.com/in/divya-ayikkara-015563116/">
+					<a href="https://www.instagram.com/divya_2210/?hl=en">
+					<a href="https://www.linkedin.com/in/divya-ayikkara-015563116/">
 					<img id="Linkedin" src="./assets/images/LinkedIn.jpg" alt="Linkedin" style="width: 50px; height: 50px;">
-				<a href="https://github.com/divyaayikkara9497">
+					<a href="https://github.com/divyaayikkara9497">
 					<img id="Github" src="./assets/images/Github.jpg" alt="Github" style="width: 50px; height: 50px;">
-				<a href="https://stackoverflow.com/users/8848317/divya-ayikkara">
+					<a href="https://stackoverflow.com/users/8848317/divya-ayikkara">
 					<img id="Stackoverflow" src="./assets/images/Stackoverflow.png" alt="Stackoverflow" style="width: 50px; height: 50px;">
 				</div>
 			</div>
+		</div>
 
-</body>
+
+</div>
 
 <div id="footer"> Copyright &copy 2017 Divya Ayikkara</div>
 
+</div>
+
+
+</body>
 </html>
+
